@@ -28,7 +28,7 @@
     "clipboard-polyfill": "^4.1.1",
     "clsx": "^2.1.1",
     "hotkeys-js": "^3.13.9",
-    "lucide-react": "^0.475.0",
+    "lucide-react": "0.476.0",
     "next-themes": "^0.4.4",
     "radix-vue": "^1.9.16",
     "react": "^19.0.0",
@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@types/chrome": "0.0.306",
+    "@types/chrome": "0.0.307",
     "@types/node": "^22.13.4",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
@@ -49,9 +49,9 @@
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.20",
     "tailwindcss": "3.4.17",
-    "typescript": "5.6.3",
+    "typescript": "^5.7.3",
     "vite-plugin-biome": "^1.0.12",
     "wxt": "^0.19.13"
   },
-  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af"
+  "packageManager": "pnpm@10.5.2"
 }

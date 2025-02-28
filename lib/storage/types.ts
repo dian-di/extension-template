@@ -1,4 +1,4 @@
 export type Perfer = {
-  user_name: boolean
+  user_name: string
   user_logo: string
 }

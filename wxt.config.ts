@@ -7,7 +7,7 @@ export default defineConfig({
   manifest: {
     permissions: ['scripting', 'storage', 'sidePanel', 'tabs'],
     name: 'extension template',
-    version: '1.0.1',
+    version: '0.0.1',
     description: 'extension template',
     host_permissions: ['<all_urls>'],
     action: {
