@@ -1,3 +1,4 @@
+import tailwindcss from "@tailwindcss/vite"
 import react from '@vitejs/plugin-react'
 import biomePlugin from 'vite-plugin-biome'
 import { defineConfig } from 'wxt'
@@ -17,6 +18,7 @@ export default defineConfig({
   vite: () => ({
     plugins: [
       react(),
+      tailwindcss(),
       biomePlugin({
         mode: 'format',
         files: 'entrypoints/', // Format only JavaScript files in src
