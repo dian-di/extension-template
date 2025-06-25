@@ -1,4 +1,4 @@
-import { type Unwatch, storage } from 'wxt/storage'
+import type { Unwatch } from 'wxt/utils/storage'
 import type { Perfer } from './types'
 export type { Perfer }
 
