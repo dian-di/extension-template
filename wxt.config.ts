@@ -1,9 +1,10 @@
 import tailwindcss from '@tailwindcss/vite'
-import react from '@vitejs/plugin-react'
+// import react from '@vitejs/plugin-react'
 import { defineConfig } from 'wxt'
 
 // See https://wxt.dev/api/config.html
 export default defineConfig({
+  modules: ["@wxt-dev/module-react"],
   outDir: "dist",
   manifest: {
     permissions: ['scripting', 'storage', 'sidePanel', 'tabs'],
@@ -17,7 +18,7 @@ export default defineConfig({
   },
   vite: () => ({
     plugins: [
-      react(),
+      // react(),
       tailwindcss(),
     ],
   }),
